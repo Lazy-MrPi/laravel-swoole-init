@@ -1805,12 +1805,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lazy-MrPi/laravel-reget.git",
-                "reference": "c1db1e613fc47051b785bcb5ce3085bb9718fb95"
+                "reference": "18a1a9132af3199cbb250f26f2c2f8194cae0a38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lazy-MrPi/laravel-reget/zipball/c1db1e613fc47051b785bcb5ce3085bb9718fb95",
-                "reference": "c1db1e613fc47051b785bcb5ce3085bb9718fb95",
+                "url": "https://api.github.com/repos/Lazy-MrPi/laravel-reget/zipball/18a1a9132af3199cbb250f26f2c2f8194cae0a38",
+                "reference": "18a1a9132af3199cbb250f26f2c2f8194cae0a38",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1825,6 +1825,20 @@
                 "php": "^7.3|^8.0"
             },
             "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Overlu\\Reget\\RegetServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Overlu\\Reget\\": "src/"
+                },
+                "classmap": [],
+                "files": []
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -1839,7 +1853,7 @@
             "support": {
                 "source": "https://github.com/Lazy-MrPi/laravel-reget/tree/v1.0.5"
             },
-            "time": "2021-04-22T02:49:23+00:00"
+            "time": "2021-04-22T08:47:19+00:00"
         },
         {
             "name": "league/commonmark",
