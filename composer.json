@@ -6,12 +6,14 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "darkaonline/l5-swagger": "^8.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "iidestiny/laravel-filesystem-oss": "^2.1",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
+        "overtrue/laravel-query-logger": "^2.1",
         "predis/predis": "^1.1",
         "pusher/pusher-php-server": "^6.1",
         "swooletw/laravel-swoole": "^2.8"
